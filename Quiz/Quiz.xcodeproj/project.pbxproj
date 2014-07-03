@@ -19,6 +19,8 @@
 		14F3AB42196502D90096A79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB2A196502D90096A79F /* UIKit.framework */; };
 		14F3AB4A196502D90096A79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14F3AB48196502D90096A79F /* InfoPlist.strings */; };
 		14F3AB4C196502D90096A79F /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AB4B196502D90096A79F /* QuizTests.m */; };
+		14F3AB58196505EF0096A79F /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AB56196505EF0096A79F /* JDViewController.m */; };
+		14F3AB59196505EF0096A79F /* JDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F3AB57196505EF0096A79F /* JDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		14F3AB47196502D90096A79F /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		14F3AB49196502D90096A79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14F3AB4B196502D90096A79F /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		14F3AB55196505EF0096A79F /* JDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
+		14F3AB56196505EF0096A79F /* JDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
+		14F3AB57196505EF0096A79F /* JDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				14F3AB35196502D90096A79F /* JDAppDelegate.h */,
 				14F3AB36196502D90096A79F /* JDAppDelegate.m */,
+				14F3AB55196505EF0096A79F /* JDViewController.h */,
+				14F3AB56196505EF0096A79F /* JDViewController.m */,
+				14F3AB57196505EF0096A79F /* JDViewController.xib */,
 				14F3AB38196502D90096A79F /* Images.xcassets */,
 				14F3AB2D196502D90096A79F /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F3AB59196505EF0096A79F /* JDViewController.xib in Resources */,
 				14F3AB31196502D90096A79F /* InfoPlist.strings in Resources */,
 				14F3AB39196502D90096A79F /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F3AB37196502D90096A79F /* JDAppDelegate.m in Sources */,
+				14F3AB58196505EF0096A79F /* JDViewController.m in Sources */,
 				14F3AB33196502D90096A79F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
