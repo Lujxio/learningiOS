@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F3AB27196502D90096A79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB26196502D90096A79F /* Foundation.framework */; };
+		14F3AB29196502D90096A79F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB28196502D90096A79F /* CoreGraphics.framework */; };
+		14F3AB2B196502D90096A79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB2A196502D90096A79F /* UIKit.framework */; };
+		14F3AB31196502D90096A79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14F3AB2F196502D90096A79F /* InfoPlist.strings */; };
+		14F3AB33196502D90096A79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AB32196502D90096A79F /* main.m */; };
+		14F3AB37196502D90096A79F /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AB36196502D90096A79F /* JDAppDelegate.m */; };
+		14F3AB39196502D90096A79F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F3AB38196502D90096A79F /* Images.xcassets */; };
+		14F3AB40196502D90096A79F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB3F196502D90096A79F /* XCTest.framework */; };
+		14F3AB41196502D90096A79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB26196502D90096A79F /* Foundation.framework */; };
+		14F3AB42196502D90096A79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F3AB2A196502D90096A79F /* UIKit.framework */; };
+		14F3AB4A196502D90096A79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14F3AB48196502D90096A79F /* InfoPlist.strings */; };
+		14F3AB4C196502D90096A79F /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F3AB4B196502D90096A79F /* QuizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F3AB43196502D90096A79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F3AB1B196502D90096A79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F3AB22196502D90096A79F;
+			remoteInfo = Quiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F3AB23196502D90096A79F /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F3AB26196502D90096A79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14F3AB28196502D90096A79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14F3AB2A196502D90096A79F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14F3AB2E196502D90096A79F /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		14F3AB30196502D90096A79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F3AB32196502D90096A79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F3AB34196502D90096A79F /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		14F3AB35196502D90096A79F /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		14F3AB36196502D90096A79F /* JDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		14F3AB38196502D90096A79F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14F3AB3E196502D90096A79F /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F3AB3F196502D90096A79F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14F3AB47196502D90096A79F /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
+		14F3AB49196502D90096A79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F3AB4B196502D90096A79F /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F3AB20196502D90096A79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB29196502D90096A79F /* CoreGraphics.framework in Frameworks */,
+				14F3AB2B196502D90096A79F /* UIKit.framework in Frameworks */,
+				14F3AB27196502D90096A79F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3AB3B196502D90096A79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB40196502D90096A79F /* XCTest.framework in Frameworks */,
+				14F3AB42196502D90096A79F /* UIKit.framework in Frameworks */,
+				14F3AB41196502D90096A79F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F3AB1A196502D90096A79F = {
+			isa = PBXGroup;
+			children = (
+				14F3AB2C196502D90096A79F /* Quiz */,
+				14F3AB45196502D90096A79F /* QuizTests */,
+				14F3AB25196502D90096A79F /* Frameworks */,
+				14F3AB24196502D90096A79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F3AB24196502D90096A79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB23196502D90096A79F /* Quiz.app */,
+				14F3AB3E196502D90096A79F /* QuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F3AB25196502D90096A79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB26196502D90096A79F /* Foundation.framework */,
+				14F3AB28196502D90096A79F /* CoreGraphics.framework */,
+				14F3AB2A196502D90096A79F /* UIKit.framework */,
+				14F3AB3F196502D90096A79F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14F3AB2C196502D90096A79F /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB35196502D90096A79F /* JDAppDelegate.h */,
+				14F3AB36196502D90096A79F /* JDAppDelegate.m */,
+				14F3AB38196502D90096A79F /* Images.xcassets */,
+				14F3AB2D196502D90096A79F /* Supporting Files */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		14F3AB2D196502D90096A79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB2E196502D90096A79F /* Quiz-Info.plist */,
+				14F3AB2F196502D90096A79F /* InfoPlist.strings */,
+				14F3AB32196502D90096A79F /* main.m */,
+				14F3AB34196502D90096A79F /* Quiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14F3AB45196502D90096A79F /* QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB4B196502D90096A79F /* QuizTests.m */,
+				14F3AB46196502D90096A79F /* Supporting Files */,
+			);
+			path = QuizTests;
+			sourceTree = "<group>";
+		};
+		14F3AB46196502D90096A79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14F3AB47196502D90096A79F /* QuizTests-Info.plist */,
+				14F3AB48196502D90096A79F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F3AB22196502D90096A79F /* Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F3AB4F196502D90096A79F /* Build configuration list for PBXNativeTarget "Quiz" */;
+			buildPhases = (
+				14F3AB1F196502D90096A79F /* Sources */,
+				14F3AB20196502D90096A79F /* Frameworks */,
+				14F3AB21196502D90096A79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiz;
+			productName = Quiz;
+			productReference = 14F3AB23196502D90096A79F /* Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F3AB3D196502D90096A79F /* QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F3AB52196502D90096A79F /* Build configuration list for PBXNativeTarget "QuizTests" */;
+			buildPhases = (
+				14F3AB3A196502D90096A79F /* Sources */,
+				14F3AB3B196502D90096A79F /* Frameworks */,
+				14F3AB3C196502D90096A79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F3AB44196502D90096A79F /* PBXTargetDependency */,
+			);
+			name = QuizTests;
+			productName = QuizTests;
+			productReference = 14F3AB3E196502D90096A79F /* QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F3AB1B196502D90096A79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Julio Diaz";
+				TargetAttributes = {
+					14F3AB3D196502D90096A79F = {
+						TestTargetID = 14F3AB22196502D90096A79F;
+					};
+				};
+			};
+			buildConfigurationList = 14F3AB1E196502D90096A79F /* Build configuration list for PBXProject "Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14F3AB1A196502D90096A79F;
+			productRefGroup = 14F3AB24196502D90096A79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F3AB22196502D90096A79F /* Quiz */,
+				14F3AB3D196502D90096A79F /* QuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F3AB21196502D90096A79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB31196502D90096A79F /* InfoPlist.strings in Resources */,
+				14F3AB39196502D90096A79F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3AB3C196502D90096A79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB4A196502D90096A79F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F3AB1F196502D90096A79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB37196502D90096A79F /* JDAppDelegate.m in Sources */,
+				14F3AB33196502D90096A79F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3AB3A196502D90096A79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3AB4C196502D90096A79F /* QuizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F3AB44196502D90096A79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F3AB22196502D90096A79F /* Quiz */;
+			targetProxy = 14F3AB43196502D90096A79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F3AB2F196502D90096A79F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F3AB30196502D90096A79F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14F3AB48196502D90096A79F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F3AB49196502D90096A79F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F3AB4D196502D90096A79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F3AB4E196502D90096A79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F3AB50196502D90096A79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
+				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14F3AB51196502D90096A79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
+				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14F3AB53196502D90096A79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuizTests/QuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14F3AB54196502D90096A79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quiz/Quiz-Prefix.pch";
+				INFOPLIST_FILE = "QuizTests/QuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F3AB1E196502D90096A79F /* Build configuration list for PBXProject "Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3AB4D196502D90096A79F /* Debug */,
+				14F3AB4E196502D90096A79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F3AB4F196502D90096A79F /* Build configuration list for PBXNativeTarget "Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3AB50196502D90096A79F /* Debug */,
+				14F3AB51196502D90096A79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14F3AB52196502D90096A79F /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3AB53196502D90096A79F /* Debug */,
+				14F3AB54196502D90096A79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F3AB1B196502D90096A79F /* Project object */;
+}
